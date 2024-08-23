@@ -41,6 +41,9 @@ highlight_code = true
 # A list of directories used to search for additional `.sublime-syntax` and `.tmTheme` files.
 extra_syntaxes_and_themes = []
 
+# lazy Loading of images for better performance
+lazy_async_image = true
+
 # The theme to use for code highlighting.
 # See below for list of allowed values.
 highlight_theme = "one-dark"
