@@ -8,7 +8,7 @@ toc = true
 tags = ['about']
 +++
 
-{{admonition(type='info' body="My setup occasionally changes every now and then so I'll make sure to update the list.")}}
+{{admonition(type='info' body="My setup changes every now and then so I'll make sure to update the list.")}}
 
 ## Software
 
