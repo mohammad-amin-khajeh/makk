@@ -1,0 +1,8 @@
+{% if caption %}
+<figure>
+  <img src="{{ path }}" alt="{{ path }}">
+  <figcaption class="text-center">{{caption | safe}}</figcaption>
+</figure>
+{% else %}
+<img src="{{ path }}" alt="{{ path }}">
+{% endif %}
