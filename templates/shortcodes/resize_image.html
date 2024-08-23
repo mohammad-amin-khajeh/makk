@@ -1,0 +1,9 @@
+{% set image = resize_image(path=path,
+width=width | default(value=950),
+height=height | default(value=1000),
+format=format | default(value='webp'),
+quality=quality | default(value=40),
+op=op | default(value='fit_width')
+)%}
+
+<img src="{{ image.url }}" alt="{{ image.static_path }}">
