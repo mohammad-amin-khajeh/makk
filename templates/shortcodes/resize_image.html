@@ -6,4 +6,11 @@ quality=quality | default(value=40),
 op=op | default(value='fit_width')
 )%}
 
+{% if caption %}
+<figure>
+  <img src="{{ image.url }}" alt="{{ image.static_path }}">
+  <figcaption class="text-center">{{caption | safe}}</figcaption>
+</figure>
+{% else %}
 <img src="{{ image.url }}" alt="{{ image.static_path }}">
+{% endif %}
