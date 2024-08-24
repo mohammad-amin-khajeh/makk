@@ -11,14 +11,22 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "18"
-      - name: update-liara
-        env:
-          LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
+          node-version: "20"
+      - name: install-liara
+        run: npm i -g @liara/cli@5
+
+      - name: install-zola
+        run: sudo snap install zola --edge
+
+      - name: install-theme
         run: |
-          npm i -g @liara/cli@5
-          sudo snap install zola --edge
           sudo apt-get install -y git
           git clone https://github.com/st1020/kita themes/kita
-          zola build
-          liara deploy --app="makk" --api-token="$LIARA_TOKEN" --no-app-logs --path="public"
+
+      - name: build-website
+        run: zola build
+
+      - name: update-website
+        run: liara deploy --app="makk" --api-token="$LIARA_TOKEN" --no-app-logs --path="public"
+        env:
+          LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
