@@ -6,6 +6,8 @@ quality=quality | default(value=40),
 op=op | default(value='fit_width')
 )%}
 
+{% if not url %}
+
 {% if caption %}
 <figure>
   <img src="{{ image.url }}" alt="{{ image.static_path }}">
@@ -13,4 +15,17 @@ op=op | default(value='fit_width')
 </figure>
 {% else %}
 <img src="{{ image.url }}" alt="{{ image.static_path }}">
+{% endif %}
+
+{% else %}
+
+{% if caption %}
+<figure>
+  <a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
+  <figcaption class="text-center" style="margin-top: -22px;">{{caption | safe}}</figcaption>
+</figure>
+{% else %}
+<a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
+{% endif %}
+
 {% endif %}
