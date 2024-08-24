@@ -18,5 +18,7 @@ jobs:
         run: |
           npm i -g @liara/cli@5
           sudo snap install zola --edge
+          sudo apt-get install -y git
+          git clone https://github.com/st1020/kita themes/kita
           zola build
           liara deploy --app="makk" --api-token="$LIARA_TOKEN" --no-app-logs --path="public"
