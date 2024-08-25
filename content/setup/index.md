@@ -3,7 +3,8 @@ title = 'All the things I use'
 date = "2024-08-24"
 description = 'My setup(both hardware and software)'
 [taxonomies]
-tags = ['about']
+tags = ['workflow']
+categories = ['about']
 +++
 
 {{admonition(type='info' body="My setup changes every now and then so I'll make sure to update the list.")}}
