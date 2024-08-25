@@ -130,6 +130,10 @@ name = "Tags"
 url = "$BASE_URL/tags"
 
 [[extra.menu]]
+name = "Categories"
+url = "$BASE_URL/categories"
+
+[[extra.menu]]
 name = "Setup"
 url = "$BASE_URL/setup"
 
