@@ -4,6 +4,7 @@ base_url = "https://makk.liara.run"
 # The site title and description; used in feeds by default.
 title = "Makk"
 description = "My blog where I show my true self"
+description = "My blog where I post and rant and teach."
 
 # The default site author.
 author = "Mohammad amin khajeh"
