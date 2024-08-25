@@ -25,7 +25,7 @@ Without it I feel like there's something missing and I'm more conscious of my en
 
 ## What sort of music do I listen to while coding?
 
-Whatever I feel like it, but most of the time something instrumental or just anything without lyrics.
+Whatever I feel like, but most of the time something instrumental or just anything without lyrics.
 
 But there are two main genres which I listen to a lot:
   - Atmospheric/ambient black metal
@@ -35,9 +35,9 @@ Don't let the "black metal" in it scare you away it's actually pretty nice.
 
 Here are some starter albums in no particular order to get you hooked:
 - ### <a target='_blank' href='https://lustre.bandcamp.com/album/phantom'>Lustre - Phantom 2015</a>
-{{put_image(path='https://f4.bcbits.com/img/a3872234179_16.jpg' width=400)}}
+{{put_image(path='https://f4.bcbits.com/img/a3872234179_16.jpg' caption='This album is just magical I absolutely love it.' width=400)}}
 - ### <a target='_blank' href='https://lustre.bandcamp.com/album/wonder'>Lustre - Wonder 2013</a>
-{{put_image(path='https://f4.bcbits.com/img/a2202248088_16.jpg' caption='Vintage lustre doing his stuff with this one.' width=400 )}}
+{{put_image(path='https://f4.bcbits.com/img/a2202248088_16.jpg' caption='Vintage lustre doing what he does best with this album.' width=400 )}}
 - ### <a target='_blank' href='https://mabisyo.bandcamp.com/album/sun-colored-eyes'>Mabisyo - Sun colored eyes 2023</a>
 {{put_image(path='https://f4.bcbits.com/img/a3592021308_10.jpg' caption='I have solved so many leetcodes with this one.' width=400 )}}
 
