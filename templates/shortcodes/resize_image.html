@@ -9,23 +9,24 @@ op=op | default(value='fit_width')
 {% if not url %}
 
 {% if caption %}
-<figure>
+<figure class="flex flex-col items-center">
   <img src="{{ image.url }}" alt="{{ image.static_path }}">
   <figcaption class="text-center">{{caption | safe}}</figcaption>
 </figure>
 {% else %}
-<img src="{{ image.url }}" alt="{{ image.static_path }}">
+<div class="flex justify-center"><img src="{{ image.url }}" alt="{{ image.static_path }}"></div>
 {% endif %}
 
 {% else %}
 
 {% if caption %}
-<figure>
+<figure class="flex flex-col items-center">
   <a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
   <figcaption class="text-center" style="margin-top: -22px;">{{caption | safe}}</figcaption>
 </figure>
 {% else %}
-<a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
+<div class="fllex justify-center"><a target="_blank" href="{{path}}"><img src="{{ image.url }}"
+      alt="{{ image.static_path }}"></a></div>
 {% endif %}
 
 {% endif %}
