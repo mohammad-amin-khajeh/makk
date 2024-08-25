@@ -11,7 +11,7 @@ op=op | default(value='fit_width')
 {% if caption %}
 <figure class="flex flex-col items-center">
   <img src="{{ image.url }}" alt="{{ image.static_path }}">
-  <figcaption class="text-center">{{caption | safe}}</figcaption>
+  <figcaption class="text-center"><em>{{caption | safe}}</em></figcaption>
 </figure>
 {% else %}
 <div class="flex justify-center"><img src="{{ image.url }}" alt="{{ image.static_path }}"></div>
@@ -22,7 +22,7 @@ op=op | default(value='fit_width')
 {% if caption %}
 <figure class="flex flex-col items-center">
   <a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
-  <figcaption class="text-center" style="margin-top: -22px;">{{caption | safe}}</figcaption>
+  <figcaption class="text-center" style="margin-top: -22px;"><em>{{caption | safe}}</em></figcaption>
 </figure>
 {% else %}
 <div class="fllex justify-center"><a target="_blank" href="{{path}}"><img src="{{ image.url }}"

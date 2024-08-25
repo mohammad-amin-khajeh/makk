@@ -1,7 +1,9 @@
 {% if caption %}
 <figure class="flex flex-col items-center">
   <img style="max-width: {%if width%} {{width}}px {%endif%};" src="{{ path }}" alt="{{ path }}">
-  <figcaption class="text-center">{{caption | safe}}</figcaption>
+  <figcaption class="text-center">
+    <em>{{caption | safe}}</em>
+  </figcaption>
 </figure>
 {% else %}
 <div class="flex justify-center"><img style="max-width: {%if width%} {{width}}px; {%endif%};" src="{{ path }}"
