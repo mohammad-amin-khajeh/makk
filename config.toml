@@ -30,6 +30,10 @@ feed_filenames = ["atom.xml"]
 #     ]
 #
 taxonomies = [{ name = "tags", rss = true, paginate_by = 5 }]
+taxonomies = [
+  { name = "tags", rss = true, paginate_by = 5 },
+  { name = "categories", rss = true, paginate_by = 5 },
+]
 
 # Theme to use
 theme = 'kita'
