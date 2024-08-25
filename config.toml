@@ -3,7 +3,6 @@ base_url = "https://makk.liara.run"
 
 # The site title and description; used in feeds by default.
 title = "Makk"
-description = "My blog where I show my true self"
 description = "My blog where I post and rant and teach."
 
 # The default site author.
@@ -29,7 +28,6 @@ feed_filenames = ["atom.xml"]
 #       {name = "authors"}, # Basic definition: no feed or pagination
 #     ]
 #
-taxonomies = [{ name = "tags", rss = true, paginate_by = 5 }]
 taxonomies = [
   { name = "tags", rss = true, paginate_by = 5 },
   { name = "categories", rss = true, paginate_by = 5 },
