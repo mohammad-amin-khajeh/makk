@@ -26,3 +26,5 @@ tags = ['about']
 
 - I use an [Ideapad slim 3](https://psref.lenovo.com/Product/IdeaPad/IdeaPad_Slim_3_15IRU8) with 8gb of ram and a 13th gen i3 processor.
 - I do ***not***  use a mouse or a separate keyboard. Just the laptop itself as is.
+
+In the end, use what works for you, but don't shy away from trying out new stuff. Because there's *always* room for improvement.
