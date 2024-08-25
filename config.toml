@@ -70,6 +70,7 @@ social_image = "images/github.svg"
 
 # The custom background color in dark mode.
 # bg_dark_color = ""
+bg_dark_color = "#111"
 
 # Enable header blur.
 # header_blur = true
