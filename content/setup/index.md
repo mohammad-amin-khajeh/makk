@@ -7,7 +7,7 @@ tags = ['workflow']
 categories = ['about']
 +++
 
-{{admonition(type='info' body="My setup changes every now and then so I'll make sure to update the list.")}}
+{{admonition(type='info' text="My setup changes every now and then so I'll make sure to update the list.")}}
 
 ## Software
 
