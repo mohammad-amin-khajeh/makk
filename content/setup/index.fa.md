@@ -4,8 +4,8 @@ date = "2024-08-24"
 description = 'دم و دستگاهم(هم نرم افزاری هم سخت افزاری)'
 authors = ['محمد امین خواجه']
 [taxonomies]
-tags = ['workflow']
-categories = ['about']
+tags = ['تدارکات']
+categories = ['درباره']
 +++
 
 {{admonition(type='info' title='' text="چیزایی که استفاده میکنم هر از گاهی تغییر میکنن پس حواسم هست لیست رو هم آپدیت کنم")}}
