@@ -1,10 +1,11 @@
 +++
-title = "Latest posts"
+title = "بلاگ های اخیر"
 sort_by = "date"
 template = "section.html"
 
 [extra]
 header = {title = "سلام! من محمدامین خواجه کولکی هستم", img = "images/me.webp", img_alt = "محمدامین خواجه کولکی هستم" }
+section_path = "blog/_index.fa.md"
 max_posts = 4
 +++
 یک توسعه دهنده [وب] با اشتیاق فراوان برای یادگیری و پروژه زدن(همچنین با افتخار یک لینوکس یوزر.)
