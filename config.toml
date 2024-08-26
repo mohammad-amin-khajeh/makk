@@ -128,7 +128,7 @@ copy_button = true
 
 # Loads the necessary JavaScript (~400 bytes) to use the "Show source or path" shortcode: https://welpo.github.io/tabi/blog/shortcodes/#show-source-or-path
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-add_src_to_code_block = false
+add_src_to_code_block = true
 
 # Show the author(s) of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
