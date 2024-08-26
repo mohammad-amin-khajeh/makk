@@ -47,7 +47,7 @@ skip_anchor_prefixes = ["https://github.com/"]
 
 [languages.fa]
 title = "Makk"
-description = "بلاگ من که توش پست میزارن و نق میزنم و آموزش میدم."
+description = "بلاگ من که توش پست میزارم و نق میزنم و آموزش میدم."
 generate_feeds = true
 taxonomies = [
   { name = "tags", feed = true },
