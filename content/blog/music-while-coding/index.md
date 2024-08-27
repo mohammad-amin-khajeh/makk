@@ -15,7 +15,7 @@ Not at all. Well, at least not for me; I initially thought I'm the *odd* one for
 
 I listen to music while solving leetcode or working on projects or anything in between. But here's the thing, a lot of the times I don't even think about what is playing in my ears because I'm so focused on the task at hand.
 
-*"But doesn't that make the music you're listening to pointless?"* I hear you ask.
+> "But doesn't that make the music you're listening to pointless...?"
 
 No, not really. As a matter of fact Music, in this context, is __a means to another end__.
 
