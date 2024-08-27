@@ -11,7 +11,7 @@ categories = ['about']
 
 ## Software
 
-{{resize_image(path='/setup/desktop.png' url=true caption='My fast and efficient workflow which I will never let go of; click on it to open it in full quality.' )}}
+{{resize_image(path='/setup/desktop.png' url=true width=1000 quality=60 caption='My fast and efficient workflow which I will never let go of; click on it to open it in full quality.' )}}
 
 - **OS**: I used to use windows until I got a bite of Linux and could never go back.
  Currently I use [Arch Linux](https://archlinux.org/) which I have found to be one of the few distros that actually gets out of my way and allows me to get job done.
