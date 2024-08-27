@@ -1,5 +1,5 @@
 {% set image = resize_image(path=path,
-width=width | default(value=950),
+width=width | default(value=1000),
 height=height | default(value=1000),
 format=format | default(value='webp'),
 quality=quality | default(value=40),
@@ -9,24 +9,25 @@ op=op | default(value='fit_width')
 {% if not url %}
 
 {% if caption %}
-<figure class="flex flex-col items-center">
+<figure>
   <img src="{{ image.url }}" alt="{{ image.static_path }}">
-  <figcaption class="text-center">{{caption | safe}}</figcaption>
+  <figcaption>{{caption | safe}}</figcaption>
 </figure>
 {% else %}
-<div class="flex justify-center"><img src="{{ image.url }}" alt="{{ image.static_path }}"></div>
+<div><img src="{{ image.url }}" alt="{{ image.static_path }}"></div>
 {% endif %}
 
 {% else %}
 
 {% if caption %}
-<figure class="flex flex-col items-center">
-  <a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
-  <figcaption class="text-center">{{caption | safe}}</figcaption>
+<figure>
+  <div class="full-width "><a target="_blank" href="{{path}}"><img src="{{ image.url }}"
+        alt="{{ image.static_path }}"></a></div>
+  <figcaption class="">{{caption | safe}}</figcaption>
 </figure>
 {% else %}
-<div class="fllex justify-center"><a target="_blank" href="{{path}}"><img src="{{ image.url }}"
-      alt="{{ image.static_path }}"></a></div>
+<div class="full-width"><a target="_blank" href="{{path}}"><img src="{{ image.url }}" alt="{{ image.static_path }}"></a>
+</div>
 {% endif %}
 
 {% endif %}
