@@ -4,7 +4,6 @@ description = 'Yay or nae?'
 date = '2024-08-25'
 [extra]
 toc = true
-cover_image = 'blog/music-while-coding/cover.jpg'
 [taxonomies]
 tags = ['music', 'workflow']
 categories = ['opinion']
