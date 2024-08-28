@@ -118,7 +118,7 @@ remote_repository_git_platform = "auto" # Defaults to "auto".
 remote_repository_branch = "main" # Defaults to "main".
 # Show a link to the commit history of updated posts, right next to the last updated date.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_remote_changes = true # Defaults to true.
+show_remote_changes = false # Defaults to true.
 # Show a link to the repository of the site, right next to the "Powered by Zola & tabi" text.
 show_remote_source = true # Defaults to true.
 
