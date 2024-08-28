@@ -204,7 +204,7 @@ tag_sorting = "name"
 
 # Invert the order of the site title and page title in the browser tab.
 # Example: true => "Blog • ~/tabi", false => "~/tabi • Blog"
-invert_title_order = false
+invert_title_order = true
 
 # Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.png"
 favicon = "images/me.webp"
