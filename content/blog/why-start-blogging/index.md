@@ -65,5 +65,5 @@ I started blogging because there is always someone out there who would find my c
 So go ahead, build your own website and populate it with the output of your mind. It is a joyful experience I promise:)
 
 
-[^1]: Well, consuming content about them not necessarily collecting them due to $$$
+[^1]: Well, consuming content about them and not necessarily collecting them due to $$$
 [^2]: [home row mods](https://precondition.github.io/home-row-mods), concavity and thumb clusters just to name a few
