@@ -1,5 +1,5 @@
 +++
-title = 'Recent blogs:'
+title = 'Recent blog posts'
 sort_by = 'date'
 paginate_by = 5
 +++
