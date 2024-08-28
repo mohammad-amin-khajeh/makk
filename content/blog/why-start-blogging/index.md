@@ -57,7 +57,7 @@ I chose zola for the following reasons:
   I could have also gone with [hugo](https://gohugo.io/) which is also pretty fast and has probably the biggest community out of them all but I heard the go template engine is clunky to use and I had already begun learning zola so I stuck with that.
 
 ## So what is this blog going to be about?
-Anything goes but mostly tech and coding content. Tutorials, rants, thoughts, you get it.
+Anything goes but mostly tech and coding content. Tutorials, rants, thoughts, you get the idea.
 
 ## Summary
 I started blogging because there is always someone out there who would find my content useful; besides that, I simply like the idea of having my own website and blog and find it fun. Lastly, teaching requires you to be really good at what you teach which is what I am after.
