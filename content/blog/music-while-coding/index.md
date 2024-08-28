@@ -6,7 +6,7 @@ date = '2024-08-25'
 toc = true
 [taxonomies]
 tags = ['music', 'workflow']
-categories = ['opinion']
+categories = ['thought']
 +++
 
 ## Let's address the elephant in the room first, isn't it distracting?

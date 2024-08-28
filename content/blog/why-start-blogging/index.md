@@ -4,7 +4,7 @@ date = 2024-08-28
 description = 'Why would I spend time writing when I can just focus on coding or doing whatever I always do?'
 [taxonomies]
 tags = ['zola', 'blogging']
-categories = ['opinion']
+categories = ['thought']
 [extra]
 toc = true
 +++
