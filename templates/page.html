@@ -108,7 +108,7 @@
 
             {#- Categories -#}
             {%- if page.taxonomies and page.taxonomies.categories -%}
-                {%- if previous_visible -%}<br>{%- endif -%}<li>{{- macros_translate::translate(key="categories", default="categories", language_strings=language_strings) | capitalize -}}:&nbsp;</li>
+                {%- if previous_visible -%}&nbsp;{{separator}}&nbsp;{%- endif -%}<li>{{- macros_translate::translate(key="categories", default="categories", language_strings=language_strings) | capitalize -}}:&nbsp;</li>
                 {%- for tag in page.taxonomies.categories -%}
                     <li><a href="{{ get_taxonomy_url(kind='categories', name=tag, lang=lang) | safe }}">{{ tag }}</a>
                     {%- if not loop.last -%}
