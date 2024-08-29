@@ -33,11 +33,12 @@ include_content = true
 index_format = "elasticlunr_json"
 
 [markdown]
+external_links_target_blank = true
 highlight_code = true
 bottom_footnotes = true
 # To use a Zola built-in theme, CSP needs to allow unsafe-inline for style-src.
 highlight_theme = "css"
-smart_punctuation = true
+smart_punctuation = false
 lazy_async_image = true
 
 [link_checker]
@@ -132,7 +133,7 @@ add_src_to_code_block = true
 
 # Show the author(s) of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_author = true
+show_author = false
 
 # Show the reading time of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -183,7 +184,7 @@ toc = false
 
 # Date format used when listing posts (main page, /blog section, tag posts list…)
 # Default is "6th July 2049" in English and "%d %B %Y" in other languages.
-long_date_format = "%d %B %Y"
+long_date_format = "%Y-%m-%d"
 
 # Date format used for blog posts.
 # Default is "6th July 2049" in English and "%-d %B %Y" in other languages.
