@@ -8,14 +8,14 @@ tags = ['neovim', 'grapple.nvim', 'workflow']
 categories = ['tutorial']
 +++
 
-So if you didn't know I have a workspace-like workflow in neovim where I tag certain files and I switched to those files using certain shortcuts. Basically what primeagen does with [harpoon](https://github.com/ThePrimeagen/harpoon) but I use [grapple.nvim](https://github.com/cbochs/grapple.nvim) instead.
+So I have a workspace-like workflow in neovim where I tag certain files and I switched to those files using certain shortcuts. Basically what primeagen does with [harpoon](https://github.com/ThePrimeagen/harpoon) but I use [grapple.nvim](https://github.com/cbochs/grapple.nvim) instead.
 
 I switched to grapple.nvim from harpoon for a variety of reasons:
   1. The cursor position is actually saved after quitting[^1].
   2. It has different \*\*scopes\*\*. Meaning you can make it so that the list of tagged files changes as per cwd, git branch, initial directory etc.
   3. Has a clean and extensive API(we'd discuss that later.)
 
-I was very happy and efficient with my workflow and this whole file-tagging thing but there was one issue.
+I was very happy and efficient with my workflow and this whole file tagging thing but there was one issue.
 
 Suppose I'm on tag 1, I want to have just a quick peek at 3, maybe I forgot how I defined a certain function or variable or what I called it, so I press `<leader>3` to go to tag 3, all good and well, and finally I press `<leader>1` to go back to tag 1.
 
