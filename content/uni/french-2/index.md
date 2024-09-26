@@ -8,10 +8,10 @@ tags = ['french']
 categories = ['university', 'cheatsheet']
 +++
 
-## appler or s'appler?
+## appeler or s'appeler?
 appeler and s'appeler are French verbs that are related to the act of calling. Understanding their use is fundamental for proper communication in French, as they are commonly used in both written and spoken language.
 
-### appler
+### appeler
 appeler directly translates as 'to call' and is used when one person calls another person or thing. It can also be used in a variety of contexts, such as to summon someone or something, to make a phone call, or to give a name.
 
 | French Sentence | English translation |
@@ -20,7 +20,7 @@ appeler directly translates as 'to call' and is used when one person calls anoth
 |  Peux-tu **appeler** un taxi?  | {{ spoiler(text="Can you call a taxi?") }} |
 | Ils vont **appeler** leur fille Élise. | {{ spoiler(text="They are going to name their daughter Elise.") }} |
 
-### S'appler
+### S'appeler
 S'appeler is a reflexive form of appeler and means 'to be called' or 'to call oneself'. It is used when the subject is also the object, i.e. when referring to oneself, as in saying one's name.
 
 | French Sentence | English translation |
