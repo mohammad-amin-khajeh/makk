@@ -158,10 +158,10 @@ Like "which" or "what" in English.
 
   | French Sentence | English Translation |
   |---|---|
-  | **Quelle** est votre profession? | What do you do for a living? |
-  | **Quel** est ton/votre nom ? | What's your name? |
-  | **Quelle** est votre adresse? | What's your address? |
-  | **Quel** est votre numéro de téléphone?| What's your telephone number?|
+  | **Quelle** est votre profession? | {{spoiler(text="What do you do for a living?")}} |
+  | **Quel** est ton/votre nom ? | {{spoiler(text="What's your name?")}} |
+  | **Quelle** est votre adresse? | {{spoiler(text="What's your address?")}} |
+  | **Quel** est votre numéro de téléphone?| {{spoiler(text="What's your telephone number?")}} |
 
 ## Nationalities
 
