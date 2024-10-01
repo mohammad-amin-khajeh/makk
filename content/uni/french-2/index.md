@@ -5,8 +5,8 @@ date = "2024-09-25"
 [extra]
 toc = true
 [taxonomies]
-tags = ['french']
-categories = ['university', 'cheatsheet']
+tags = ['french', 'university']
+categories = ['cheat_sheet']
 +++
 
 ## appeler or s'appeler?
