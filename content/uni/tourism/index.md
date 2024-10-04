@@ -14,7 +14,7 @@ categories = []
 {{full_width_image(src="./varkaneh_2.png")}}\
 {{full_width_image(src="./varkaneh_3.png")}}\
 {{admonition(type='tip' title='FACT' text='The village is *almost* completely made up of stone')}}
-{{admonition(type='tip' title='FACT' text='Professor tofy mussivand was born and raised there')}}
+{{admonition(type='tip' title='FACT' text='Professor Tofy Mussivand was born and raised there')}}
 
 ### Reasons to visit
 
@@ -24,14 +24,13 @@ categories = []
 ## 2. {{ spoiler(text='Mausoleum of Persian polymath Avicenna') }}
 
 {{full_width_image(src="./sina_1.png")}}\
-{{full_width_image(src="./sina_2.png")}}\
-{{full_width_image(src="./sina_3.png")}}
+{{full_width_image(src="./sina_2.png")}}
 
 <br>
 
 ### reasons to visit
 
-- learn about islamic golden age.
+- learn about the Islamic golden age.
 - honor a medical pioneer.
 - appreciate architectural beauty.
 
