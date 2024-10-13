@@ -108,3 +108,12 @@ categories = []
 - Discover global landmarks.
 - Learn about different cultures.
 - Enjoy a family-friendly outing.
+
+## Vocabulary
+
+| English | Farsi |
+| -------------- | --------------- |
+| Mausoleum | {{spoiler(text='آرامگاه' fixed_blur=true)}} |
+| polymath | {{spoiler(text='همه چیز دان، بحر العلوم'fixed_blur=true)}} |
+| Achaemenid | {{spoiler(text='هخامنشی'fixed_blur=true)}} |
+| Cuneiform | {{spoiler(text='خط میخی' fixed_blur=true) }} |
