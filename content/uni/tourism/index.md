@@ -105,8 +105,6 @@ categories = []
 
 ### Reasons to visit
 
-- Discover global landmarks.
-- Learn about different cultures.
 - Enjoy a family-friendly outing.
 
 ## Vocabulary
