@@ -9,6 +9,8 @@ tags = ['french', 'university']
 categories = ['cheat_sheet']
 +++
 
+# verbs
+
 ## appeler or s'appeler?
 
 - ### appeler
@@ -146,6 +148,79 @@ It's one of the irregular verbs in French, so its conjugation is different from 
 text='The verb "aller" is also used to express future actions in French.
 For example, "Je **vais** manger" means "I am going to eat."')}}
 
+## Avoir
+
+### Conjugation of Avoir
+
+| Singular | Plural |
+|---|---|
+| j'ai | nous avons |
+| tu as | vous avez |
+| il/elle a | ils/elles ont |
+
+### Sentence Examples
+
+#### **Possession:**
+
+| French | English |
+|---|---|
+| J'ai un chien. | {{spoiler(text="I have a dog.")}} |
+| Elle a une voiture. | {{spoiler(text="She has a car.")}} |
+| Nous avons une maison. | {{spoiler(text="We have a house.")}} |
+
+#### **Existence:**
+
+| French | English |
+|---|---|
+| Il y a un livre sur la table. | {{spoiler(text="There is a book on the table.")}} |
+| Il n'y a pas de café. | {{spoiler(text="There is no coffee.")}} |
+
+#### **Time:**
+
+| French | English |
+|---|---|
+| J'ai faim. | {{spoiler(text="I am hungry.")}} |
+| Il a soif. | {{spoiler(text="He is thirsty.")}} |
+| Nous avons froid. | {{spoiler(text="We are cold.")}} |
+
+#### **Age:**
+
+| French | English |
+|---|---|
+| J'ai 25 ans. | {{spoiler(text="I am 25 years old.")}} |
+| Tu as quel âge? | {{spoiler(text="How old are you?")}} |
+| Ils ont 30 ans. | {{spoiler(text="They are 30 years old.")}} |
+
+## naître
+
+*Naître* means "to be born" in French. It's a regular verb, meaning its conjugation follows a predictable pattern.
+
+### Conjugation Table(Past Indicative)
+
+| Subject Pronoun | Conjugation |
+|---|---|
+| je | suis né(e) |
+| tu | es né(e) |
+| il/elle/on | est né(e) |
+| nous | sommes né(e)s |
+| vous | êtes né(e)s |
+| ils/elles | sont né(e)s |
+
+### Example sentences
+
+| French | English |
+|---|---|
+|Ils sont nés à Paris| {{spoiler(text="They were born in paris")}} |
+|Il est né au Japon| {{spoiler(text="He was born in Japan")}} |
+|Nous sommes nés en Iran| {{spoiler(text="We were born in Iran")}} |
+|Ils sont nés à New York| {{spoiler(text="They were born in New York")}} |
+
+{{admonition(type='warning'
+text='**Note:** The past participle of naître is né(e).
+The masculine form is né, and the feminine form is née.')}}
+
+# grammar
+
 ## quel and quelle
 
 **Quel** and **quelle** are French interrogative adjectives used to ask questions about nouns.
@@ -162,6 +237,116 @@ Like "which" or "what" in English.
   | **Quel** est ton/votre nom ? | {{spoiler(text="What's your name?")}} |
   | **Quelle** est votre adresse? | {{spoiler(text="What's your address?")}} |
   | **Quel** est votre numéro de téléphone?| {{spoiler(text="What's your telephone number?")}} |
+
+## French Possessive adjectives
+
+**Possessive adjectives** in French indicate ownership or possession. They agree in gender and number with the possessed item.
+
+### List of French Possessive Articles
+
+| English | Masculine Singular | Feminine Singular | Masculine Plural | Feminine Plural |
+|---|---|---|---|---|
+| My | mon | ma | mes | mes |
+| Your (singular) | ton | ta | tes | tes |
+| His/Her/Its | son | sa | ses | ses |
+| Our | notre | notre | nos | nos |
+| Your (plural) | votre | votre | vos | vos |
+| Their | leur | leur | leurs | leurs |
+
+### Usage examples
+
+| French | English |
+|---|---|
+| Mon livre | {{spoiler(text='My book')}} |
+| Ta voiture | {{spoiler(text='Your car')}} |
+| Ses amis | {{spoiler(text='His/Her/Its friends')}} |
+| Notre maison | {{spoiler(text='Our house')}} |
+| Vos enfants | {{spoiler(text='Your children')}} |
+| Leurs parents | {{spoiler(text='Their parents')}} |
+
+{{admonition(type='warning'
+text='Feminine nouns starting with h or a vowel typically take the
+male article.\
+So we have "mon ami" meaning my(male) friend,\
+but also "mon amie", my(female) friend.')}}
+
+## Understanding *c'est* and the Indefinite Article in French
+
+**c'est** is a contraction of the verb *être* (to be) and the pronoun *ce*. It is used to say "it is" or "this is".
+
+The indefinite article in French is used to refer to nouns that are not specific. It has two forms:
+
+- **un** (masculine): a, one
+- **une** (feminine): a, one
+
+### Example Sentences
+
+| French Sentence | English Translation |
+|---|---|
+| C'est un livre. | {{spoiler(text="It's a book.")}} |
+| C'est une maison. | {{spoiler(text="It's a house.")}} |
+| C'est un chat gris. | {{spoiler(text="It's a gray cat.")}} |
+| C'est une fille intelligente. | {{spoiler(text="She's a smart girl.")}} |
+| **Ce sont des amis.** | {{spoiler(text="They are friends.")}} |
+| **Ce sont des étudiants.** | {{spoiler(text="They are students.")}} |
+
+{{admonition(type='tip'
+text="When referring to plural nouns, we use **ce sont** instead of **c'est**.")}}
+
+## Understanding "il y a"
+
+**"Il y a"** is a fundamental French expression that translates to "there is" or "there are." It's used to indicate the existence of something or someone.
+
+### How to use "il y a"
+
+- **To express quantity:**
+  - *Il y a beaucoup de livres.* (There are many books.)
+  - *Il y a peu de personnes.* (There are few people.)
+
+- **To indicate a location:**
+  - *Il y a un parc.* (There is a park.)
+  - *Il y a des magasins.* (There are stores.)
+
+- **To talk about time:**
+  - *Il y a deux heures, j'étais à la maison.* (Two hours ago, I was at home.)
+  - *Il y a longtemps que je ne l'ai pas vu.* (It's been a long time since I saw him.)
+
+### Example sentences with various contexts
+
+| French Sentence | English Translation |
+|---|---|
+| Il y a un chat. | {{spoiler(text="There is a cat.")}} |
+| Il y a des nuages. | {{spoiler(text="There are clouds.")}} |
+| Il y a une fête. | {{spoiler(text="There is a party.")}} |
+| Il y a des pommes. | {{spoiler(text="There are apples.")}} |
+| Il y a trois semaines, je suis allé à Paris. | {{spoiler(text="Three weeks ago, I went to Paris.")}} |
+
+# Vocabulary
+
+| French | English |
+|---|---|
+| école | {{spoiler(text="school")}} |
+| université | {{spoiler(text="university")}} |
+| parc | {{spoiler(text="park")}} |
+| maison | {{spoiler(text="house")}} |
+| piscine | {{spoiler(text="swimming pool")}} |
+| homme | {{spoiler(text="man")}} |
+| vélo | {{spoiler(text="bicycle")}} |
+| sac | {{spoiler(text="bag")}} |
+| stylo | {{spoiler(text="pen")}} |
+| billet | {{spoiler(text="ticket")}} |
+| crayon | {{spoiler(text="pencil")}} |
+| avobase | {{spoiler(text="avocado")}} |
+| point | {{spoiler(text="point")}} |
+| montre | {{spoiler(text="watch")}} |
+| voiture | {{spoiler(text="car")}} |
+| bouteille | {{spoiler(text="bottle")}} |
+| table | {{spoiler(text="table")}} |
+| tasse | {{spoiler(text="cup")}} |
+| sujet | {{spoiler(text="subject")}} |
+| pronom | {{spoiler(text="pronoun")}} |
+| fille | {{spoiler(text="girl")}} |
+| rue | {{spoiler(text="street")}} |
 
 ## Nationalities
 
@@ -216,107 +401,3 @@ Be it by themselves or in a "Je suis \*profession\*" sentence')}}
 | Architect | Architecte | Architecte |
 | Singer | Chanteur | Chanteuse |
 | Director | Directeur | Directrice |
-
-<br>
-
-## French Possessive Articles
-
-**Possessive articles** in French indicate ownership or possession. They agree in gender and number with the possessed item.
-
-### List of French Possessive Articles
-
-| English | Masculine Singular | Feminine Singular | Masculine Plural | Feminine Plural |
-|---|---|---|---|---|
-| My | mon | ma | mes | mes |
-| Your (singular) | ton | ta | tes | tes |
-| His/Her/Its | son | sa | ses | ses |
-| Our | notre | notre | nos | nos |
-| Your (plural) | votre | votre | vos | vos |
-| Their | leur | leur | leurs | leurs |
-
-### Usage examples
-
-| French | English |
-|---|---|
-| Mon livre | {{spoiler(text='My book')}} |
-| Ta voiture | {{spoiler(text='Your car')}} |
-| Ses amis | {{spoiler(text='His/Her/Its friends')}} |
-| Notre maison | {{spoiler(text='Our house')}} |
-| Vos enfants | {{spoiler(text='Your children')}} |
-| Leurs parents | {{spoiler(text='Their parents')}} |
-
-{{admonition(type='warning'
-text='Feminine nouns starting with h or a vowel typically take the
-male article.\
-So we have "mon ami" meaning my(male) friend,\
-but also "mon amie", my(female) friend.')}}
-
-## Avoir
-
-### Conjugation of Avoir
-
-| Singular | Plural |
-|---|---|
-| j'ai | nous avons |
-| tu as | vous avez |
-| il/elle a | ils/elles ont |
-
-### Sentence Examples
-
-#### **Possession:**
-
-| French | English |
-|---|---|
-| J'ai un chien. | {{spoiler(text="I have a dog.")}} |
-| Elle a une voiture. | {{spoiler(text="She has a car.")}} |
-| Nous avons une maison. | {{spoiler(text="We have a house.")}} |
-
-#### **Existence:**
-
-| French | English |
-|---|---|
-| Il y a un livre sur la table. | {{spoiler(text="There is a book on the table.")}} |
-| Il n'y a pas de café. | {{spoiler(text="There is no coffee.")}} |
-
-#### **Time:**
-
-| French | English |
-|---|---|
-| J'ai faim. | {{spoiler(text="I am hungry.")}} |
-| Il a soif. | {{spoiler(text="He is thirsty.")}} |
-| Nous avons froid. | {{spoiler(text="We are cold.")}} |
-
-#### **Age:**
-
-| French | English |
-|---|---|
-| J'ai 25 ans. | {{spoiler(text="I am 25 years old.")}} |
-| Tu as quel âge? | {{spoiler(text="How old are you?")}} |
-| Ils ont 30 ans. | {{spoiler(text="They are 30 years old.")}} |
-
-## Vocabulary
-
-| French | English |
-|---|---|
-| école | {{spoiler(text="school")}} |
-| université | {{spoiler(text="university")}} |
-| parc | {{spoiler(text="park")}} |
-| maison | {{spoiler(text="house")}} |
-| piscine | {{spoiler(text="swimming pool")}} |
-| homme | {{spoiler(text="man")}} |
-| vélo | {{spoiler(text="bicycle")}} |
-| sac | {{spoiler(text="bag")}} |
-| stylo | {{spoiler(text="pen")}} |
-| billet | {{spoiler(text="ticket")}} |
-| crayon | {{spoiler(text="pencil")}} |
-| avobase | {{spoiler(text="avocado")}} |
-| point | {{spoiler(text="point")}} |
-| montre | {{spoiler(text="watch")}} |
-| voiture | {{spoiler(text="car")}} |
-| bouteille | {{spoiler(text="bottle")}} |
-| table | {{spoiler(text="table")}} |
-| tasse | {{spoiler(text="cup")}} |
-| sujet | {{spoiler(text="subject")}} |
-| pronom | {{spoiler(text="pronoun")}} |
-| fille | {{spoiler(text="girl")}} |
-| rue | {{spoiler(text="street")}} |
