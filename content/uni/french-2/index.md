@@ -6,7 +6,7 @@ date = "2024-09-25"
 toc = true
 [taxonomies]
 tags = ['french', 'university']
-categories = ['cheat_sheet']
+categories = ['cheatsheet']
 +++
 
 # verbs
