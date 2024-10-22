@@ -1,5 +1,5 @@
 +++
-title = "Oral reproduction of story"
+title = "What we talk about when we talk about love"
 description = "My analysis of 'what we talk about when we talk about love'"
 date = "2024-10-18"
 [extra]
@@ -21,25 +21,36 @@ From an abusive ex-husband who "<u>***loved***</u>" his at the time wife, to an 
 
 - Nick, the narrator
 - Laura, Nick's wife
-- Mel, a cardiologist and the main character
-- Terri, the narrator
-- Ed, terri's ex-husband
+- Mel[vin], a cardiologist and the main character
+- Terri, Mel's wife
+- Ed, Terri's ex-husband
 
 ## Themes
 
-- Dirty, cold, melancholic realism
 - The elusive nature of love
 - The Duality of love
+- The Inadequacy of Language
 
-## Symbolism
+## Style
 
-> “We haven’t actually eaten there yet. But it looks good. From the outside, you know.”
->
-> — Terri
-
-{{admonition(type='info' text="What we call love is only a perception until it becomes everlasting.")}}
+- Dirty realism
 
 <br>
+
+## Quotes & Symbolism
+
+- ## Mel is more confused than anyone else
+
+> “the terrible thing, the terrible thing is, but the good thing too, the saving grace, you might say,
+is that if something happened to one of us—excuse me for saying this—but if something happened to one of us tomorrow,
+I think the other one, the other person, would grieve for a while,
+you know, but then the surviving party would go out and love again, have someone else soon enough.”
+>
+> — Mel
+
+<br>
+
+- ## Love is inevitable
 
 > “But what I liked about knights,
 besides their ladies, was that they had that suit of armor,
@@ -59,23 +70,37 @@ They got trampled by their own horses sometimes.”
 
 <br>
 
-> “Sometimes I think I’ll go up there dressed like a beekeeper.
-You know, that hat that’s like a helmet with the plate that comes down over your face,
-the big gloves, and the padded coat?
-I’ll knock on the door and let loose a hive of bees in the house.
-But first I’d make sure the kids were out, of course.”
+- ## Mel's words and actions do not align
+
+> “She’s allergic to bees,” Mel said.
+“If I’m not praying she’ll get married again, I’m praying she’ll get herself stung to death by a swarm of f#!@ing bees.”
 >
 > — Mel
 
-{{admonition(type='info' text="Mel only cares about the physical aspect of love and hate.")}}
+{{admonition(type='tip' title='CONTEXT' text="Talking about his ex-wife, marjorie.")}}
 
 <br>
+
+- ## The old couple
+
+{{admonition(type='info' text="The old couple are the only ones to have experienced true love. ***Maybe***.")}}
+
 <br>
+
+- ## Love in disguise
+
+> “We haven’t actually eaten there yet. But it looks good. From the outside, you know.”
+>
+> — Terri
+
+{{admonition(type='info' text="What we call love is only a perception until it becomes everlasting.")}}
+
 <br>
-<br>
-<br>
-<br>
-<br>
+
+- ## The sun
+
+{{admonition(type='info' text="Represents the loss of clarity and happiness as the friends grow increasingly confused about the meaning of love.")}}
+
 <br>
 <br>
 <br>
