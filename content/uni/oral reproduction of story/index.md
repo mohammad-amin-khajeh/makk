@@ -83,6 +83,15 @@ They got trampled by their own horses sometimes.”
 
 - ## The old couple
 
+> “Well, the husband was very depressed for the longest while.
+Even after he found out that his wife was going to pull through, he was still very depressed.
+Not about the accident, though.
+I mean, the accident was one thing, but it wasn’t everything.
+I’d get up to his mouth- hole, you know, and he’d say no, it wasn’t the accident exactly but it was because he couldn’t see her through his eye-holes.
+He said that was what was making him feel so bad. Can you imagine? I’m telling you, the man’s heart was breaking because he couldn’t turn his goddamn head and ***see*** his goddamn wife.”
+>
+> — Mel
+
 {{admonition(type='info' text="The old couple are the only ones to have experienced true love. ***Maybe***.")}}
 
 <br>
