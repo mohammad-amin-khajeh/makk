@@ -219,6 +219,34 @@ For example, "Je **vais** manger" means "I am going to eat."')}}
 text='**Note:** The past participle of naître is né(e).
 The masculine form is né, and the feminine form is née.')}}
 
+## étudier
+
+**Meaning:** To study
+
+*Étudier* is a regular French verb that follows the pattern of verbs ending in *-er*. It's commonly used to describe the act of learning or acquiring knowledge.
+
+### Conjugation Table
+
+| Singular | Plural |
+|---|---|
+| j'étudie | nous étudions |
+| tu étudies | vous étudiez |
+| il/elle étudie | ils/elles étudient |
+
+## situer
+
+**Meaning:** To situate, to locate
+
+*Situer* is a regular French verb that follows the pattern of verbs ending in *-er*. It's often used to indicate the position or location of something.
+
+### Present Tense Conjugation
+
+| Singular | Plural |
+|---|---|
+| je situe | nous situons |
+| tu situes | vous situez |
+| il/elle situe | ils/elles situent |
+
 # grammar
 
 ## quel and quelle
@@ -321,36 +349,72 @@ text="When referring to plural nouns, we use **ce sont** instead of **c'est**.")
 | Il y a des pommes. | {{spoiler(text="There are apples.")}} |
 | Il y a trois semaines, je suis allé à Paris. | {{spoiler(text="Three weeks ago, I went to Paris.")}} |
 
+## First group verbs
+
+More than 80 percent of French verbs are **-er** verbs.
+It’s great for you,
+because after you know their pattern of conjugation in the present tense, you can pretty much conjugate 80 percent of French verbs !
+
+To conjugate a regular -**er** verb, drop the -**er** of the infinitive to get the stem ( **le radical** in French).
+Then add the six present tense endings specific to **-er** verbs:
+
+- -e
+- -es
+- -e
+- -ons
+- -ez
+- -ent
+
+[habiter](#habiter) is one such verb.
+
+{{admonition(type='warning' text='[aller](#aller) (to go) is a very common verb, and it looks like a regular -er verb, but it is not, aller is actually an irregular verb.')}}
+
 # Vocabulary
 
 | French | English |
 |---|---|
-| école | {{spoiler(text="school")}} |
-| université | {{spoiler(text="university")}} |
-| parc | {{spoiler(text="park")}} |
-| maison | {{spoiler(text="house")}} |
-| piscine | {{spoiler(text="swimming pool")}} |
-| homme | {{spoiler(text="man")}} |
-| vélo | {{spoiler(text="bicycle")}} |
-| sac | {{spoiler(text="bag")}} |
-| stylo | {{spoiler(text="pen")}} |
-| billet | {{spoiler(text="ticket")}} |
-| crayon | {{spoiler(text="pencil")}} |
-| avobase | {{spoiler(text="avocado")}} |
-| point | {{spoiler(text="point")}} |
-| montre | {{spoiler(text="watch")}} |
-| voiture | {{spoiler(text="car")}} |
-| bouteille | {{spoiler(text="bottle")}} |
-| table | {{spoiler(text="table")}} |
-| tasse | {{spoiler(text="cup")}} |
-| sujet | {{spoiler(text="subject")}} |
-| pronom | {{spoiler(text="pronoun")}} |
-| fille | {{spoiler(text="girl")}} |
-| rue | {{spoiler(text="street")}} |
+| **l'** école | school |
+| **l'** université | university |
+| **le** parc | park |
+| **la** maison | house |
+| **la** piscine | swimming pool |
+| **l'** homme | man |
+| **le** vélo | bicycle |
+| **le** sac | bag |
+| **le** stylo | pen |
+| **le** billet | ticket |
+| **le** crayon | pencil |
+| **l'** avocat | avocado |
+| **le** point | point |
+| **la** montre | watch |
+| **la** voiture | car |
+| **la** bouteille | bottle |
+| **la** table | table |
+| **la** tasse | cup |
+| **le** sujet | subject |
+| **le** pronom | pronoun |
+| **la** fille | girl |
+| **la** rue | street |
+| **la** sœur | sister |
+| **la** frère | brother |
+| **le** mur | wall |
+| **le** lit | bed |
+| **l'** étagère | shelf |
+| **la** fenêtre | window |
+| **l'** affiche | poster |
+| **le** blouson | jacket |
+| **le** chapeau | hat |
+| **la** chaise | chair |
+| **l'** assiette | plate |
+| **la** fleur | flower |
+| **le** verre | glass |
+| **le** vase | vase |
+| **l'** ordinateur | computer |
+| **le** fauteuil | armchair |
 
 ## Nationalities
 
-| Country | Definite Article | Masculine |
+| Country | Masculine | Feminine |
 |---|---|---|
 | **la** France | Français | Française |
 | **l'** Allemagne | Allemand | Allemande |
