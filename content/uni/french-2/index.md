@@ -137,11 +137,14 @@ It's one of the irregular verbs in French, so its conjugation is different from 
   | French Sentence | English Translation |
   |---|---|
   | **Je vais** au cinéma. | {{spoiler(text="I am going to the cinema.")}} |
+  | **Je vais** en France. | {{spoiler(text="I am going to France.")}} |
   | **Tu vas** à la plage. | {{spoiler(text="You are going to the beach.")}} |
   | **Il va** au restaurant. | {{spoiler(text="He is going to the restaurant.")}} |
   | **Nous allons** à la fête. | {{spoiler(text="We are going to the party.")}} |
+  | **Nous allons** en Chine. | {{spoiler(text="We are going to China.")}} |
   | **Vous allez** au parc. | {{spoiler(text="You are going to the park.")}} |
   | **Ils vont** à l'école. | {{spoiler(text="They are going to school.")}} |
+  | **Ils vont** à Paris. | {{spoiler(text="They are going to Paris.")}} |
   | **Tu vas** bien? | {{spoiler(text="How are you?/Are you okay?")}} |
 
 {{admonition(type='note'
@@ -167,6 +170,9 @@ For example, "Je **vais** manger" means "I am going to eat."')}}
 | J'ai un chien. | {{spoiler(text="I have a dog.")}} |
 | Elle a une voiture. | {{spoiler(text="She has a car.")}} |
 | Nous avons une maison. | {{spoiler(text="We have a house.")}} |
+| Nous avons 20 ans. | {{spoiler(text="We are 20 years old.")}} |
+| Vous avez quel age? | {{spoiler(text="What's your age?")}} |
+| J'ai une sieur. | {{spoiler(text="I have a sister.")}} |
 
 #### **Existence:**
 
@@ -247,6 +253,28 @@ The masculine form is né, and the feminine form is née.')}}
 | tu situes | vous situez |
 | il/elle situe | ils/elles situent |
 
+## Chercher
+
+**Meaning:** To search, to look for
+
+*Chercher* is a regular French verb that follows the pattern of verbs ending in *-er*. It's often used to indicate the position or location of something.
+
+### Conjugation Table
+
+| Singular | Plural |
+|---|---|
+| je cherch | nous cherchons |
+| tu cherches | vous cherchez |
+| il/elle cherche | ils/elles cherchent |
+
+| French | English |
+|---|---|
+|Je cherch mon chat. | {{spoiler(text="I'm looking for my cat.")}} |
+|Tu cherches quoi?| {{spoiler(text="What are you looking for.")}} |
+|Il cherche son pere| {{spoiler(text="He's looking for his father.")}} |
+|Nous cherchons notre livre.| {{spoiler(text="We're looking for our book.")}} |
+|Ils sont nés à New York| {{spoiler(text="They were born in New York")}} |
+
 # grammar
 
 ## quel and quelle
@@ -286,6 +314,7 @@ Like "which" or "what" in English.
 | French | English |
 |---|---|
 | Mon livre | {{spoiler(text='My book')}} |
+| Ma soeur. | {{spoiler(text='My sister')}} |
 | Ta voiture | {{spoiler(text='Your car')}} |
 | Ses amis | {{spoiler(text='His/Her/Its friends')}} |
 | Notre maison | {{spoiler(text='Our house')}} |
@@ -312,6 +341,7 @@ The indefinite article in French is used to refer to nouns that are not specific
 | French Sentence | English Translation |
 |---|---|
 | C'est un livre. | {{spoiler(text="It's a book.")}} |
+| C'est sa frere. | {{spoiler(text="That's her brother.")}} |
 | C'est une maison. | {{spoiler(text="It's a house.")}} |
 | C'est un chat gris. | {{spoiler(text="It's a gray cat.")}} |
 | C'est une fille intelligente. | {{spoiler(text="She's a smart girl.")}} |
@@ -369,6 +399,26 @@ Then add the six present tense endings specific to **-er** verbs:
 
 {{admonition(type='warning' text='[aller](#aller) (to go) is a very common verb, and it looks like a regular -er verb, but it is not, aller is actually an irregular verb.')}}
 
+## Qu'est-ce que?
+
+- ***Meaning***: {{spoiler(text='What is that/this?')}}
+
++Qu'est-ce que c'est?\
+-Ce sont des affiches
+
+# In class practice
+
+## 1403.08.09
+
++C'est ton telephone?\
+-Oui, c'est {{spoiler(text="Mon")}} telephone\
+-Non, c'est {{spoiler(text="Son")}} telephone(Jean)\
+-Non, c'est {{spoiler(text="Ton")}} telephone(Toi)
+
+quel est {{spoiler(text="ton/votre")}} *nom*? - Falco\
+quel est {{spoiler(text="ton/votre")}} numero? - 0913\
+quelle est {{spoiler(text="ton/votre")}} adresse? - 35, Rue X
+
 # Vocabulary
 
 | French | English |
@@ -411,8 +461,10 @@ Then add the six present tense endings specific to **-er** verbs:
 | **le** vase | vase |
 | **l'** ordinateur | computer |
 | **le** fauteuil | armchair |
+| **le** persan | persian |
+| **le** monde | world |
 
-## Nationalities
+## Countries & Nationalities
 
 | Country | Masculine | Feminine |
 |---|---|---|
@@ -431,6 +483,7 @@ Then add the six present tense endings specific to **-er** verbs:
 | **la** Suède | Suédois | Suédoise |
 | **la** Russie | Russe | Russe |
 | **la** Chine | Chinois | Chinoise |
+|**le** Sénégal | Sénégalis | Sénégalise |
 
 ## Professions
 
