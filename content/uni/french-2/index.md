@@ -275,6 +275,32 @@ The masculine form is né, and the feminine form is née.')}}
 |Nous cherchons notre livre.| {{spoiler(text="We're looking for our book.")}} |
 |Ils sont nés à New York| {{spoiler(text="They were born in New York")}} |
 
+## Porter
+
+The French verb "porter" is a regular -er verb, meaning it follows a [standard conjugation pattern](#first-group-verbs).
+It primarily translates to "to carry" or "to wear."
+
+### Conjugation Table
+
+| Singular | Plural |
+|---|---|
+| Je porte | Nous portons |
+| Tu portes | Vous portez |
+| Il/Elle porte | Ils/Elles portent |
+
+### Example sentences
+
+| French | English |
+|---|---|
+| Je **porte** un sac. | {{spoiler(text="I am carrying a bag.")}} |
+| Tu **portes** des lunettes. | {{spoiler(text="You are wearing glasses.")}} |
+| Il **porte** un chapeau. | {{spoiler(text="He is wearing a hat.")}} |
+| Elle **porte** une robe. | {{spoiler(text="She is wearing a dress.")}} |
+| Nous **portons** des chaussures. | {{spoiler(text="We are wearing shoes.")}} |
+| Vous **portez** des gants. | {{spoiler(text="You are wearing gloves.")}} |
+| Ils **portent** des jeans. | {{spoiler(text="They are wearing jeans.")}} |
+| Elles **portent** des manteaux. | {{spoiler(text="They are wearing coats.")}} |
+
 # grammar
 
 ## quel and quelle
@@ -406,6 +432,22 @@ Then add the six present tense endings specific to **-er** verbs:
 +Qu'est-ce que c'est?\
 -Ce sont des affiches
 
+### Usage with [Il y a](#understanding-il-y-a)
+
+|french|english|
+|-|-|
+| Est-ce qu'il y a un livre dans la chambre? | {{spoiler(text="Is there a book in the room?")}} |
+| Qu'est-ce qu'il y a dans la chambre? | {{spoiler(text="What's in the room?")}} |
+
+## tonic pronouns(pronom tonique)
+
+- moi
+- toi
+- lui/elles
+- nous
+- vous
+- eux/elles
+
 # In class practice
 
 ## 1403.08.09
@@ -463,6 +505,20 @@ quelle est {{spoiler(text="ton/votre")}} adresse? - 35, Rue X
 | **le** fauteuil | armchair |
 | **le** persan | persian |
 | **le** monde | world |
+| alors | خب/پس |
+| autre | other |
+| noir | black |
+| blanc-blanche | white |
+| brun(e) | brown |
+| grand(e) | big, tall, large |
+| petit(e) | small |
+| rouge | red |
+| bleu(e) | blue |
+| blond(e) | blond |
+| robe | dress |
+| vert(e) | green |
+| pantalon | pants |
+| lunettes | glasses |
 
 ## Countries & Nationalities
 
@@ -518,3 +574,11 @@ Be it by themselves or in a "Je suis \*profession\*" sentence')}}
 | Architect | Architecte | Architecte |
 | Singer | Chanteur | Chanteuse |
 | Director | Directeur | Directrice |
+
+## prepositions
+
+|french|english|
+|-|-|
+| dans | inside |
+| sur | on top of |
+| contre | lean against |
