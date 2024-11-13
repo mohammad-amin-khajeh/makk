@@ -448,6 +448,20 @@ Then add the six present tense endings specific to **-er** verbs:
 - vous
 - eux/elles
 
+## Whose something
+
+|french|english|
+|-|-|
+|**A qui est** le livre rouge? | {{spoiler(text='to who belongs that red book?')}} |
+|C'est **a qui**?| {{spoiler(text="Whose is it?")}} |
+
+## indefinite articles in negative sentences
+
+|positive|negative|
+|-|-|
+| Il porte **un** tee-shirt rouge | Il ne porte pas **de** tee-shirt rouge |
+| Il porte **une** chemise bleu | Il ne porte pas **de** chemise bleu |
+
 # In class practice
 
 ## 1403.08.09
@@ -519,6 +533,8 @@ quelle est {{spoiler(text="ton/votre")}} adresse? - 35, Rue X
 | vert(e) | green |
 | pantalon | pants |
 | lunettes | glasses |
+| tee-shirt | t-shirt |
+| pantalón | pants |
 
 ## Countries & Nationalities
 
