@@ -301,6 +301,73 @@ It primarily translates to "to carry" or "to wear."
 | Ils **portent** des jeans. | {{spoiler(text="They are wearing jeans.")}} |
 | Elles **portent** des manteaux. | {{spoiler(text="They are wearing coats.")}} |
 
+## Coûter
+
+The French verb **"coûter"** means "to cost." It is used to indicate the price of something, or to express the value or expense of something in terms of money or effort.
+
+### Conjugation of "coûter" in the Present Tense
+
+| **Singular** | **Plural** |
+|--------------|------------|
+| je coûte     | nous coûtsons   |
+| tu coûtes    | vous coûtez      |
+| il/elle coûte | ils/elles coûtent |
+
+### Example Sentences
+
+| **French Sentence**             | **English Translation**                       |
+|----------------------------------|-----------------------------------------------|
+| Ce livre coûte 10 euros.         | {{spoiler(text="This book costs 10 euros.")}}  |
+| Combien ça coûte ?               | {{spoiler(text="How much does it cost?")}}     |
+| Ce restaurant coûte cher.        | {{spoiler(text="This restaurant is expensive.")}} |
+| Les pommes coûtent moins cher.   | {{spoiler(text="The apples cost less.")}}     |
+| Tout cela coûte beaucoup d'argent. | {{spoiler(text="All of this costs a lot of money.")}} |
+
+## Faire
+
+### Conjugation of "faire" in the Present Tense
+
+| **Singular**   | **Plural**     |
+|----------------|----------------|
+| je fais        | nous faisons   |
+| tu fais        | vous faites    |
+| il/elle fait| ils/elles font |
+
+### Example Sentences
+
+| **French Sentence**               | **English Translation**                               |
+|------------------------------------|-------------------------------------------------------|
+| Je fais mes devoirs.               | {{spoiler(text="I do my homework.")}}                 |
+| Tu fais du sport ?                 | {{spoiler(text="Do you do sports?")}}                 |
+| Il fait beau aujourd'hui.          | {{spoiler(text="The weather is nice today.")}}        |
+| Nous faisons un gâteau.            | {{spoiler(text="We are making a cake.")}}             |
+| Elles font du shopping ce matin.   | {{spoiler(text="They are shopping this morning.")}}   |
+
+## trouver
+
+The French verb **trouver** means "to find" or "to discover." It's a regular -er verb, and it's used when you want to say that you have found something or when you're referring to the act of discovering or locating something. It can also be used in more abstract senses, such as finding an opinion or feeling about something.
+
+### Conjugation of *trouver* (Present Tense)
+
+| Singular       | Plural         |
+|----------------|----------------|
+| je trouve      | nous trouvons  |
+| tu trouves     | vous trouvez   |
+| il/elle/on trouve | ils/elles trouvent |
+
+### Example Sentences
+
+| French Sentence                                | English Translation                                                                 |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
+| J'ai trouvé mes clés.                          | {{spoiler(text="I found my keys.")}}                                                 |
+| Tu trouves ce film intéressant ?               | {{spoiler(text="Do you find this movie interesting?")}}                             |
+| Il trouve son travail difficile.               | {{spoiler(text="He finds his work difficult.")}}                                     |
+| Nous trouvons une solution.                    | {{spoiler(text="We find a solution.")}}                                              |
+| Vous trouvez souvent des endroits sympas.      | {{spoiler(text="You (plural/formal) often find nice places.")}}                      |
+| Ils trouvent que le temps passe vite.          | {{spoiler(text="They find that time passes quickly.")}}                              |
+
+I hope that makes it clear! Would you like more examples or further explanations?
+
 # grammar
 
 ## quel and quelle
@@ -535,6 +602,9 @@ quelle est {{spoiler(text="ton/votre")}} adresse? - 35, Rue X
 | lunettes | glasses |
 | tee-shirt | t-shirt |
 | pantalón | pants |
+| joli | pretty |
+| ce type | this type, such |
+| vêtement | clothing |
 
 ## Countries & Nationalities
 
