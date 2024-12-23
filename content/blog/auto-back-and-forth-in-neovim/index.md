@@ -11,6 +11,7 @@ categories = ['tutorial']
 So I have a workspace-like workflow in neovim where I tag certain files and I switched to those files using certain shortcuts. Basically what primeagen does with [harpoon](https://github.com/ThePrimeagen/harpoon) but I use [grapple.nvim](https://github.com/cbochs/grapple.nvim) instead.
 
 I switched to grapple.nvim from harpoon for a variety of reasons:
+
   1. The cursor position is actually saved after quitting[^1].
   2. It has different \*\*scopes\*\*. Meaning you can make it so that the list of tagged files changes as per cwd, git branch, initial directory etc.
   3. Has a clean and extensive API(we'd discuss that later.)
@@ -22,6 +23,7 @@ Suppose I'm on tag 1, I want to have just a quick peek at 3, maybe I forgot how 
 This works really well no problem whatsoever but I still wish switching to tagged files had an auto-back-and-forth mechanism like from [i3wm](https://i3wm.org/).
 
 In case you don't know what that is it basically allows you to switch to the last tag upon hitting the keybinding for the current tag:
+
   1. Be on tag 1
   2. Press `<leader>3`
   3. On tag 3 now
@@ -62,6 +64,7 @@ Here are my bindings before the modifications:
 ```
 
 And here they are now:
+
 ```lua
 return {
   {
@@ -215,6 +218,7 @@ return {
   },
 }
 ```
+
 I'm basically checking whether the current buffer/file is tagged using `require("grapple").exists()` and if so I move onto the next condition, which is whether the file at tag x is equal to the current file(the zeroth buffer), using `require("grapple").find({ index = x }) == require("grapple").find({ buffer = 0 })`, and if that too is true I move to the last buffer with control+caret or `vim.cmd.norm("")`[^2]
 
 If neither of those conditions succeed I simply move onto the desired tag.
