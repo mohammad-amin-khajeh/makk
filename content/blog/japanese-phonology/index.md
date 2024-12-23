@@ -1,5 +1,5 @@
 +++
-title = "all about Japanese phonology"
+title = "All about Japanese phonology"
 description = ""
 date = "2024-12-09"
 [extra]
@@ -36,9 +36,9 @@ In Japanese, the duration of each sound that makes up a word (known as a 'mora')
 
 | Japanese | Romaji | English |
 | ------------- | -------------- | -------------- |
-| 箸 | ***HA***shi | chopsticks |
-| 橋 | ha***SHI*** | bridge |
-| 端 | ha***SHI*** | edge |
+| 箸 | <sup>ha</sup><sub>shi</sub> | chopsticks |
+| 橋 | <sub>ha</sub><sup>shi</sup> | bridge |
+| 端 | <sub>ha</sub><sup>shi</sup> | edge |
 
 - ## Stress modifies
 
@@ -104,11 +104,11 @@ In fact, in any 平板 word with more than one mora, the first mora is pronounce
 
 | Word             | Romaji    | English |
 |-------------------|-----------|---------|
-| 時間              | ji<u>**KAN**</u> | Time            |
-| 卵                | ta<u>**MAGO**</u> | Egg             |
-| 友達            | to<u>**MODACHI**</u>         | Friend               |
-| 日本語            | ni<u>**HONGO**</u>         | Japanese(language)               |
-| 学校            | ga<u>**KKOU**</u>         | School               |
+| 時間              | <sub>ji</sub><sup>kan</sup> | Time            |
+| 卵                | <sub>ta</sub><sup>mago</sup> | Egg             |
+| 友達            | <sub>to</sub><sup>modachi</sup>         | Friend               |
+| 日本語            | <sub>ni</sub><sup>hongo</sup>         | Japanese(language)               |
+| 学校            | <sub>ga</sub><sup>kkou</sup>         | School               |
 
 2. ### 頭高 - atamadaka
 
@@ -118,10 +118,10 @@ The drop in pitch is larger than the small rise in pitch we saw at the beginning
 
 | Word | Romaji | English |
 | --------------- | --------------- | --------------- |
-| いつ | <u>**I**</u>tsu | when |
-| 天気 | <u>**TEN**</u>ki | weather |
-| 毎日 | <u>**MAI**</u>nichi | every day  |
-| 猫 | <u>**NE**</u>ko | cat |
+| いつ | <sup>i</sup><sub>tsu</sub> | when |
+| 天気 | <sup>ten</sup><sub>ki</sub> | weather |
+| 毎日 | <sup>mai</sup><sub>nichi</sub> | every day  |
+| 猫 | <sup>ne</sup><sub>ko</sub> | cat |
 
 3. ### 中高 - nakadaka
 
@@ -133,10 +133,10 @@ As with 平板 words, the rise in pitch at the beginning of the word is smaller 
 
 | Word | Romaji | English |
 | --------------- | --------------- | --------------- |
-| 一つ | hi<u>**TO**</u>tsu | one |
-| スポーツ | su<u>**PŌ**</u>tsu | sports |
-| 工場 | ko<u>**UJO**</u>u | factory |
-| 喜ぶ | yo<u>**ROKO**</u>bu | to be delighted |
+| 一つ | <sub>hi</sub><sup>to</sup><sub>tsu</sub> | one |
+| スポーツ | <sub>su</sub><sup>pō</sup><sub>tsu</sub> | sports |
+| 工場 | <sub>ko</sub><sup>ujo</sup><sub>u</sub> | factory |
+| 喜ぶ | <sub>yo</sub><sup>roko</sup><sub>bu</sub> | to be delighted |
 
 4. ### 尾高 - odaka
 
@@ -144,10 +144,10 @@ As with 平板 words, the rise in pitch at the beginning of the word is smaller 
 
 | Word | Romaji | English |
 | --------------- | --------------- | --------------- |
-| 川が | ka<u>**WA**</u>ga | river(subject) |
-| 二つが | fu<u>**TATSU**</u>ga | second(subject) |
-| 妹は | i<u>**MOUTO**</u>wa | younger sister(topic) |
-| 橋で | ha<u>**SHI**</u>de | bridge(context) |
+| 川が | <sub>ka</sub><sup>wa</sup><sub>ga</sub> | river(subject) |
+| 二つが | <sub>fu</sub><sup>tatsu</sup><sub>ga</sub> | second(subject) |
+| 妹は | <sub>i</sub><sup>mouto</sup><sub>wa</sub> | younger sister(topic) |
+| 橋で | <sub>ha</sub><sup>shi</sup><sub>de</sub> | bridge(context) |
 
 <br>
 
@@ -155,5 +155,4 @@ As with 平板 words, the rise in pitch at the beginning of the word is smaller 
 
 - 1: if the first mora is low, the second is high, and vice versa
 - 2: once you go low, stay low
-- 3: if in doubt, guess 平板
     {{admonition(type='tip' text="If you are not sure of the correct accent of a word, this rule will be the most useful! Among the 10,000 most useful words in Japanese, the 平板 pattern is used about 55% of the time.")}}
