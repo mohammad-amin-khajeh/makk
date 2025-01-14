@@ -30,12 +30,12 @@ In case you don't know what that is it basically allows you to switch to the las
   4. Press `<leader>3`
   5. Back to tag 1 again
 
-Grapple.nvim doesn't support this out of the box. So I thought no biggie I'll just modify the source code a bit adding an optional auto back and forth feature and create a pr at last.
-But as it turns out the source code for grapple.nvim is massive and I'm not familiar with neovim's API enough to be able to achieve that.
+Grapple.nvim does not support such feature out of the box. So I thought no biggie I'll just modify the source code a bit adding an optional auto back and forth feature and create a pr at last.
+But as it turns out the source code for grapple.nvim is massive and I'm not familiar with neovim's API enough to do it on my own.
 
 Thankfully though grapple.nvim has a very extensive and clean API which makes our job much easier.
 
-Here are my bindings before the modifications:
+My bindings before the change:
 
 ```lua
   {
@@ -66,6 +66,17 @@ Here are my bindings before the modifications:
 And here they are now:
 
 ```lua
+local function grapple_select(index)
+  if
+    require("grapple").exists()
+    and require("grapple").find({ index = index }) == require("grapple").find({ buffer = 0 })
+  then
+    vim.cmd("b#")
+  else
+    vim.cmd("Grapple select index=" .. index)
+  end
+end
+
 return {
   {
     "cbochs/grapple.nvim",
@@ -77,20 +88,13 @@ return {
       status = true,
     },
     keys = {
-      { "<leader>a", "<cmd>Grapple toggle<cr>", desc = "grapple toggle a file" },
-      { "<C-e>", "<cmd>Grapple toggle_tags<cr>", desc = "grapple toggle tags menu" },
+      { "<leader>a", "<cmd>Grapple toggle<cr>", desc = "toggle grappling a file" },
+      { "<C-e>", "<cmd>Grapple toggle_tags<cr>", desc = "toggle grapple tags menu" },
 
       {
         "<leader>1",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 1 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=1")
-          end
+          grapple_select(1)
         end,
         desc = "grapple select first tag",
       },
@@ -98,14 +102,7 @@ return {
       {
         "<leader>2",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 2 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=2")
-          end
+          grapple_select(2)
         end,
         desc = "grapple select second tag",
       },
@@ -113,14 +110,7 @@ return {
       {
         "<leader>3",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 3 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=3")
-          end
+          grapple_select(3)
         end,
         desc = "grapple select third tag",
       },
@@ -128,14 +118,7 @@ return {
       {
         "<leader>4",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 4 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=4")
-          end
+          grapple_select(4)
         end,
         desc = "grapple select fourth tag",
       },
@@ -143,14 +126,7 @@ return {
       {
         "<leader>5",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 5 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=5")
-          end
+          grapple_select(5)
         end,
         desc = "grapple select fifth tag",
       },
@@ -158,14 +134,7 @@ return {
       {
         "<leader>6",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 6 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=6")
-          end
+          grapple_select(6)
         end,
         desc = "grapple select sixth tag",
       },
@@ -173,14 +142,7 @@ return {
       {
         "<leader>7",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 7 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=7")
-          end
+          grapple_select(7)
         end,
         desc = "grapple select seventh tag",
       },
@@ -188,14 +150,7 @@ return {
       {
         "<leader>8",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 8 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=8")
-          end
+          grapple_select(8)
         end,
         desc = "grapple select eighth tag",
       },
@@ -203,14 +158,7 @@ return {
       {
         "<leader>9",
         function()
-          if
-            require("grapple").exists()
-            and require("grapple").find({ index = 9 }) == require("grapple").find({ buffer = 0 })
-          then
-            vim.cmd.norm("")
-          else
-            vim.cmd("Grapple select index=9")
-          end
+          grapple_select(9)
         end,
         desc = "grapple select ninth tag",
       },
@@ -219,7 +167,7 @@ return {
 }
 ```
 
-I'm basically checking whether the current buffer/file is tagged using `require("grapple").exists()` and if so I move onto the next condition, which is whether the file at tag x is equal to the current file(the zeroth buffer), using `require("grapple").find({ index = x }) == require("grapple").find({ buffer = 0 })`, and if that too is true I move to the last buffer with control+caret or `vim.cmd.norm("")`[^2]
+I'm basically checking whether the current buffer/file is tagged using `require("grapple").exists()` and if so I move onto the next condition, which is whether the file at tag x is equal to the current file(the zeroth buffer), using `require("grapple").find({ index = x }) == require("grapple").find({ buffer = 0 })`, and if that too is true I move to the last buffer with `vim.cmd("b#")`
 
 If neither of those conditions succeed I simply move onto the desired tag.
 
@@ -227,5 +175,4 @@ Here's how it looks like in action:
 
 {{video(src="./auto_back_and_forth.mp4" muted=true)}}
 
-[^1]: There's an open [issue](https://github.com/ThePrimeagen/harpoon/issues/441)
-[^2]: Unfortunately the text inside the double quotes will not render. Same with code block. If you plan on copying what I have here you have to manually press `C-q` followed by `C-^` while in insert mode to insert the appropriate value.
+[^1]: There's an open [issue](https://github.com/ThePrimeagen/harpoon/issues/441) at the time of writing
