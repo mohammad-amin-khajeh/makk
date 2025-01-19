@@ -1,10 +1,4 @@
-{% if caption %}
-<figure class="">
-  <img src="{{ path }}" alt="{{ path }}">
-  <figcaption class="text-center">
-    {{caption | safe}}
-  </figcaption>
+<figure>
+  <img src="{{ path }}" alt="{{ path }}" {% if width %} width="{{width}}" {%endif%}>
+  {% if caption %} <figcaption class="text-center"> {{caption | safe}} </figcaption> {% endif %}
 </figure>
-{% else %}
-<div><img src="{{ path }}" alt="{{ path }}"></div>
-{% endif %}
