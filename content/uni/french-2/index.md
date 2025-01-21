@@ -366,8 +366,6 @@ The French verb **trouver** means "to find" or "to discover." It's a regular -er
 | Vous trouvez souvent des endroits sympas.      | {{spoiler(text="You (plural/formal) often find nice places.")}}                      |
 | Ils trouvent que le temps passe vite.          | {{spoiler(text="They find that time passes quickly.")}}                              |
 
-I hope that makes it clear! Would you like more examples or further explanations?
-
 # grammar
 
 ## quel and quelle
