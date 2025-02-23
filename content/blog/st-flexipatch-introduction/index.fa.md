@@ -42,9 +42,7 @@ sudo make install
 
 برای این کار فایل `patches.h` رو باز میکنیم و بخش زیری رو پیدا میکنیم:
 
-{{add_src_to_code_block(src="st-flexipatch/patches.h")}}
-
-```c
+```c, name=st-flexipatch/patches.h
 /* The alpha patch adds transparency for the terminal.
  * You need to uncomment the corresponding line in config.mk to use the -lXrender library
  * when including this patch.
@@ -55,9 +53,7 @@ sudo make install
 
 عدد 0 رو به 1 تغییر بدید تا پچ فعال شه:
 
-{{add_src_to_code_block(src="st-flexipatch/patches.h")}}
-
-```c
+```c, name=st-flexipatch/patches.h
 /* The alpha patch adds transparency for the terminal.
  * You need to uncomment the corresponding line in config.mk to use the -lXrender library
  * when including this patch.
@@ -68,18 +64,14 @@ sudo make install
 
 بعد از اون به فایل `config.mk` برید و خط زیر رو پیدا کنید:
 
-{{add_src_to_code_block(src="st-flexipatch/config.mk")}}
-
-```make
+```make, name=st-flexipatch/config.mk
 # Uncomment this for the alpha patch / ALPHA_PATCH
 #XRENDER = `$(PKG_CONFIG) --libs xrender`
 ```
 
 و خط دوم رو آنکامنت کنید:
 
-{{add_src_to_code_block(src="st-flexipatch/config.mk")}}
-
-```make
+```make, name=st-flexipatch/config.mk
 # Uncomment this for the alpha patch / ALPHA_PATCH
 XRENDER = `$(PKG_CONFIG) --libs xrender`
 ```
@@ -94,9 +86,7 @@ XRENDER = `$(PKG_CONFIG) --libs xrender`
 
 میتونید توی فایل `config.h` بخش زیر رو پیدا کنید و تغییرش بدید تا مقدار transparency تغییر کنه:
 
-{{add_src_to_code_block(src="st-flexipatch/patches.h")}}
-
-```c
+```c, name=st-flexipatch/patches.h
 #if ALPHA_PATCH
 /* bg opacity */
 float alpha = 0.8;
@@ -106,9 +96,7 @@ float alpha = 0.8;
 
 به طور پیشفرض 0.8 هست. میتونید کمترش کنید تا مقدار transparency افزایش پیدا کنه و به قولی شفاف تر شه[^2]:
 
-{{add_src_to_code_block(src="st-flexipatch/patches.h")}}
-
-```c
+```c, name=st-flexipatch/patches.h
 #if ALPHA_PATCH
 /* bg opacity */
 float alpha = 0.3;
