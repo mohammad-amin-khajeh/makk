@@ -80,7 +80,7 @@ XRENDER = `$(PKG_CONFIG) --libs xrender`
 
 حالا ترمینالتون transparency داره:)! [^2]
 
-{{ image_toggler(default_src="fa/blog/st-flexipatch-introduction/before.png", toggled_src="fa/blog/st-flexipatch-introduction/after.png", default_alt="St before alpha patch", toggled_alt="St after alpha patch") }}
+{{ image_toggler(default_src="./before.png", toggled_src="./after.png", default_alt="St before alpha patch", toggled_alt="St after alpha patch", raw_path = true ) }}
 
 ## نکته
 
@@ -104,7 +104,7 @@ float alpha = 0.3;
 #endif // ALPHA_PATCH
 ```
 
-{{ image_toggler(default_src="fa/blog/st-flexipatch-introduction/0.3-transparency.png", toggled_src="fa/blog/st-flexipatch-introduction/after.png", default_alt="St at 0.3 alpha", toggled_alt="St at 0.8 alpha") }}
+{{ image_toggler(default_src="./0.3-transparency.png", toggled_src="./after.png", default_alt="St at 0.3 alpha", toggled_alt="St at 0.8 alpha", raw_path = true ) }}
 
 [^1]: یه فایل `config.mk` هم هست که بعضی پچ ها برای فعال شدن نیاز به ادیتش دارن.
 [^2]: روی عکس کلیک کنید تا قبل و بعد رو ببینید.
