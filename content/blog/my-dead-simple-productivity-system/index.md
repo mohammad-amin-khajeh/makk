@@ -125,26 +125,51 @@ But either way, I keep it simple.
 
 ## Quality of life zsh functions for further automation
 
-I have two simple zsh functions that just abstract away the commands I have to enter to have the following workflow:
+I have two main zsh functions and a complementary one that just abstract away the commands I have to enter to have the following workflow:
 
 1. study for 2 hours
 2. open calcurse and mark my n-th session as done
 3. take a 5 minute break, after which a notification is sent, telling me to "go back to studying"
 4. repeat
 
-The first function being:
+### The complementary `t2s` function
 
 ```sh
-study() {
-  termdown -s -q ${1:-7200} && st -e calcurse && rest ${2:-300}
+t2s() {
+  sed 's/d/*24*3600 +/g; s/h/*3600 +/g; s/m/*60 +/g; s/s/\+/g; s/+[ ]*$//g' <<< "$1" | bc
 }
 ```
 
-And the second:
+Which converts human-readable time formats to seconds(E.g. 2h5m => 7500).
+
+### The `study` function
+
+```sh
+study() {
+  # study for 1 hour then take a 5 minute break
+
+  # get the current screen saver activation time
+  curr_timeout=$(xset q | grep "timeout" | awk '{print $2}')
+
+  study_time=${$(t2s $1):-$(t2s 2h)}
+  rest_time=${$(t2s $2):-$(t2s 5m)}
+
+  # set the screen saver activation time to 9999 while studying
+  xset s 9999 9999
+
+  termdown -s -q "$study_time" &&
+  st -e calcurse &&
+  xset s $curr_timeout $curr_timeout &&
+  rest "$rest_time"
+}
+```
+
+### the `rest` function
 
 ```sh
 rest() {
-  termdown -s -q "$1" && notify-send "go back to studying"
+  rest_time=${$(t2s $1):-$(t2s 5m)}
+  termdown -s -q "$rest_time" && notify-send "go back to studying"
 }
 
 ```
@@ -154,7 +179,7 @@ rest() {
 ## putting it all together
 
 1. Have a tmux window dedicated to studying.
-1. Run the `study 7200` command in it(7200 being 2 hours in seconds.)
+1. Run the `study 2h` command in it.
 1. Start studying.
 1. Make flashcards in anki when appropriate.
 1. Repeat.
