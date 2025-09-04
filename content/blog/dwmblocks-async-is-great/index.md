@@ -99,7 +99,7 @@ So in our case it would be 44 (34+10): `kill -44 $(pidof dwmblocks)`
 
 As an example in my [sxhkd](https://github.com/baskerville/sxhkd) config I have the following binding:
 
-```sxhkdrc, name=~/.config/sxhkd/sxhkdrc
+```sh, name=~/.config/sxhkd/sxhkdrc
 XF86Audio{Raise,Lower}Volume
   pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && kill -44 $(pidof dwmblocks) # update dwmblocks-async's volume block
 ```
@@ -112,7 +112,7 @@ There are 3 requirements to have clickable blocks.
 
   1. patch dwm with the `statuscmd` patch[^4]:
 
-      ```c, config.h
+      ```c, name=config.h
       { ClkStatusText,        0,                   Button1,        sigstatusbar,   {.i = 1 } },
       { ClkStatusText,        0,                   Button2,        sigstatusbar,   {.i = 2 } },
       { ClkStatusText,        0,                   Button3,        sigstatusbar,   {.i = 3 } },

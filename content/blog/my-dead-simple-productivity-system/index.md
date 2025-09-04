@@ -70,7 +70,7 @@ sed -i -e "1i $todo_item" -e '$ d' "$todo_path"
 
 Which I bind to a key in sxhkd:
 
-```sxhkdrc
+```sh
  # Calcurse Todo
 super + ctrl + s; c; t
   calcurse.sh
@@ -86,7 +86,7 @@ So you want to see a list of your tasks without opening calcurse.
 
 You can either enter `calcurse -d1` in the terminal or better, have a shortcut that shows your tasks as a notification:
 
-```sxhkdrc
+```sh
  # Calcurse Appointments
 super + ctrl + s; c; a
   notify-send "$(calcurse -d1)" -t 3000
